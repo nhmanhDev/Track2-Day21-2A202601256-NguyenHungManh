@@ -22,13 +22,13 @@ nop-bai/
 
 Đánh dấu `[x]` khi hoàn thành từng mục:
 
-- [ ] Repo GitHub ở chế độ **public** và chứa toàn bộ code, cấu hình đã hoàn thiện.
-- [ ] Đủ 5 ảnh trong `anh-chup-man-hinh/`, đúng tên file, đúng thứ tự (xem
+- [x] Repo GitHub ở chế độ **public** và chứa toàn bộ code, cấu hình đã hoàn thiện.
+- [x] Đủ 5 ảnh trong `anh-chup-man-hinh/`, đúng tên file, đúng thứ tự (xem
       [yêu cầu chi tiết](anh-chup-man-hinh/README.md)).
-- [ ] `bao-cao.md` đã điền đủ 3 mục bắt buộc và không vượt quá 1 trang A4.
-- [ ] Đã `git push` toàn bộ thư mục `nop-bai/` lên GitHub.
-- [ ] Dán URL repo GitHub vào bài nộp trên **https://codelabs.vlearn.dev**.
-- [ ] Mở lại URL vừa nộp ở chế độ ẩn danh để chắc chắn repo public và người chấm xem được.
+- [x] `bao-cao.md` đã điền đủ 3 mục bắt buộc và không vượt quá 1 trang A4.
+- [x] Đã `git push` toàn bộ thư mục `nop-bai/` lên GitHub.
+- [x] Dán URL repo GitHub vào bài nộp trên **https://codelabs.vlearn.dev**.
+- [x] Mở lại URL vừa nộp ở chế độ ẩn danh để chắc chắn repo public và người chấm xem được.
 
 ---
 
@@ -65,9 +65,3 @@ trình khi một ảnh nào đó chưa thể hiện đủ (ví dụ quality gate
 
 Ảnh chụp màn hình được commit trực tiếp vào Git. Giữ mỗi ảnh dưới **1 MB** (chụp vùng cần
 thiết thay vì toàn màn hình 4K, hoặc nén lại trước khi commit) để repo không phình to.
-
-Nếu bạn dùng macOS, có thể nén nhanh bằng lệnh sẵn có:
-
-```bash
-sips -Z 1600 nop-bai/anh-chup-man-hinh/01-mlflow-ui.png
-```
